@@ -1,0 +1,100 @@
+/*
+ * tests/attention/ForgettingAgentUTest.cxxtest
+ *
+ * Copyright (C) 2024 Your Name
+ * All Rights Reserved
+ *
+ * Written by Your Name
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License v3 as
+ * published by the Free Software Foundation and including the exceptions
+ * at http://opencog.org/wiki/Licenses
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program; if not, write to:
+ * Free Software Foundation, Inc.,
+ * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+#include <cxxtest/TestSuite.h>
+#include <opencog/attention/ForgettingAgent.h>
+#include <opencog/cogserver/server/CogServer.h>
+#include <opencog/cogserver/modules/agents/Scheduler.h>
+#include <opencog/atomspace/AtomSpace.h>
+#include <opencog/atoms/base/Atom.h>
+#include <opencog/util/Logger.h>
+#include <opencog/util/Config.h>
+
+using namespace opencog;
+using namespace std;
+
+class ForgettingAgentUTest : public CxxTest::TestSuite
+{
+private:
+    AtomSpace* as;
+    AgentPtr _forgettingAgentPtr;
+    CogServer* _cogserver;
+    Scheduler* _scheduler;
+
+public:
+    void tearDown()
+    {
+        _cogserver->stop();
+    }
+
+    void InitCogServer()
+    {
+        _cogserver = &cogserver();
+        config().set("MODULES", "opencog/attention/libattention.so");
+        _cogserver->loadModules();
+        config().set("MODULES", "libagents.so");
+        Module* amod = _cogserver->getModule("opencog::AgentsModule");
+        AgentsModule* agmod = (AgentsModule*) amod;
+        _scheduler = &agmod->get_scheduler();
+
+        this->as = &cogserver().getAtomSpace();
+
+        // Create and register the ForgettingAgent
+        Factory<ForgettingAgent, Agent> forgettingAgentFactory;
+        _scheduler->registerAgent(ForgettingAgent::info().id, &forgettingAgentFactory);
+        _forgettingAgentPtr = _scheduler->createAgent(ForgettingAgent::info().id, false);
+    }
+
+    void testForgetAtoms()
+    {
+        InitCogServer();
+        _scheduler->startAgent(_forgettingAgentPtr, true, "forgetting_agent");
+
+        // Set the forgetting threshold
+        _forgettingAgentPtr->forgetThreshold = 5.0;
+
+        // Populate the AtomSpace with atoms of varying LTI
+        Handle atom1 = as->add_node(CONCEPT_NODE, "HighImportanceAtom");
+        atom1->set_lti(10.0); // High LTI, should not be removed
+
+        Handle atom2 = as->add_node(CONCEPT_NODE, "LowImportanceAtom1");
+        atom2->set_lti(4.0); // Low LTI, should be removed
+
+        Handle atom3 = as->add_node(CONCEPT_NODE, "LowImportanceAtom2");
+        atom3->set_lti(5.0); // Boundary LTI, should be removed
+
+        // Run the forgetting process
+        _forgettingAgentPtr->forget();
+
+        // Check the remaining atoms in the atomspace
+        HandleSeq remainingAtoms;
+        as->get_handles_by_type(back_inserter(remainingAtoms), ATOM);
+
+        // Expect only one atom (atom1) to remain
+        TS_ASSERT_EQUALS(remainingAtoms.size(), 1);
+        TS_ASSERT_EQUALS(remainingAtoms[0]->to_string(), "HighImportanceAtom");
+
+        _scheduler->stopAgent(_forgettingAgentPtr);
+    }
+};

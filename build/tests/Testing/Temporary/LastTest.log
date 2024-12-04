@@ -1,0 +1,139 @@
+Start testing: Dec 04 15:38 CET
+----------------------------------------------------------
+1/8 Testing: AttentionValueUTest
+1/8 Test: AttentionValueUTest
+Command: "/home/nardos_tatek/attention/build/tests/attentionbank/AttentionValueUTest"
+Directory: /home/nardos_tatek/attention/build/tests/attentionbank
+"AttentionValueUTest" start time: Dec 04 15:38 CET
+Output:
+----------------------------------------------------------
+Running cxxtest tests (8 tests)........OK!
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"AttentionValueUTest" end time: Dec 04 15:38 CET
+"AttentionValueUTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/8 Testing: AttentionUTest
+2/8 Test: AttentionUTest
+Command: "/home/nardos_tatek/attention/build/tests/attentionbank/AttentionUTest"
+Directory: /home/nardos_tatek/attention/build/tests/attentionbank
+"AttentionUTest" start time: Dec 04 15:38 CET
+Output:
+----------------------------------------------------------
+Running cxxtest tests (3 tests)...OK!
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"AttentionUTest" end time: Dec 04 15:38 CET
+"AttentionUTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/8 Testing: BankImplUTest
+3/8 Test: BankImplUTest
+Command: "/home/nardos_tatek/attention/build/tests/attentionbank/BankImplUTest"
+Directory: /home/nardos_tatek/attention/build/tests/attentionbank
+"BankImplUTest" start time: Dec 04 15:38 CET
+Output:
+----------------------------------------------------------
+Running cxxtest tests (10 tests)..........OK!
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BankImplUTest" end time: Dec 04 15:38 CET
+"BankImplUTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/8 Testing: BankAsyncUTest
+4/8 Test: BankAsyncUTest
+Command: "/home/nardos_tatek/attention/build/tests/attentionbank/BankAsyncUTest"
+Directory: /home/nardos_tatek/attention/build/tests/attentionbank
+"BankAsyncUTest" start time: Dec 04 15:38 CET
+Output:
+----------------------------------------------------------
+Running cxxtest tests (1 test).OK!
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BankAsyncUTest" end time: Dec 04 15:38 CET
+"BankAsyncUTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/8 Testing: AttentionalFocusCBUTest
+5/8 Test: AttentionalFocusCBUTest
+Command: "/home/nardos_tatek/attention/build/tests/attentionbank/AttentionalFocusCBUTest"
+Directory: /home/nardos_tatek/attention/build/tests/attentionbank
+"AttentionalFocusCBUTest" start time: Dec 04 15:38 CET
+Output:
+----------------------------------------------------------
+Running cxxtest tests (1 test)[2024-12-04 14:38:20:384] [DEBUG] BEGIN TEST: test_af_bindlink
+.OK!
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Passed.
+"AttentionalFocusCBUTest" end time: Dec 04 15:38 CET
+"AttentionalFocusCBUTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/8 Testing: AttentionParamQueryUTest
+6/8 Test: AttentionParamQueryUTest
+Command: "/home/nardos_tatek/attention/build/tests/attention/AttentionParamQueryUTest"
+Directory: /home/nardos_tatek/attention/build/tests/attention
+"AttentionParamQueryUTest" start time: Dec 04 15:38 CET
+Output:
+----------------------------------------------------------
+Running cxxtest tests (4 tests)....OK!
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"AttentionParamQueryUTest" end time: Dec 04 15:38 CET
+"AttentionParamQueryUTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/8 Testing: ImportanceDiffusionUTest
+7/8 Test: ImportanceDiffusionUTest
+Command: "/home/nardos_tatek/attention/build/tests/attention/ImportanceDiffusionUTest"
+Directory: /home/nardos_tatek/attention/build/tests/attention
+"ImportanceDiffusionUTest" start time: Dec 04 15:38 CET
+Output:
+----------------------------------------------------------
+Running cxxtest tests (8 tests)........OK!
+<end of output>
+Test time =   0.14 sec
+----------------------------------------------------------
+Test Passed.
+"ImportanceDiffusionUTest" end time: Dec 04 15:38 CET
+"ImportanceDiffusionUTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/8 Testing: HebbianCreationModuleUTest
+8/8 Test: HebbianCreationModuleUTest
+Command: "/home/nardos_tatek/attention/build/tests/attention/HebbianCreationModuleUTest"
+Directory: /home/nardos_tatek/attention/build/tests/attention
+"HebbianCreationModuleUTest" start time: Dec 04 15:38 CET
+Output:
+----------------------------------------------------------
+Running cxxtest tests (1 test)
+AF: 
+(ConceptNode "Kermit" (stv 0.001 900)) ; [5eb698a26f3ce69c][1]
+(ConceptNode "Frog" (stv 0.01 900)) ; [3dd97786ac33020][1]
+(ConceptNode "Animal" (stv 0.1 900)) ; [e984dcc8320aa56][1]
+(PredicateNode "alive" (stv 0.01 900)) ; [688a177a9bccc9c2][1]
+count(HebLinks) = 12
+.OK!
+<end of output>
+Test time =   1.19 sec
+----------------------------------------------------------
+Test Passed.
+"HebbianCreationModuleUTest" end time: Dec 04 15:38 CET
+"HebbianCreationModuleUTest" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: Dec 04 15:38 CET

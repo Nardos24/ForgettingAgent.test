@@ -1,0 +1,128 @@
+[2024-12-04 14:23:40:972] [WARN] No configuration file was loaded! Param=MODULES
+[2024-12-04 14:23:40:972] [INFO] Loading module "/home/nardos_tatek/cogserver/build/opencog/cogserver/modules/commands/libbuiltinreqs.so"
+[2024-12-04 14:23:40:973] [INFO] Loading module "/home/nardos_tatek/cogserver/build/opencog/cogserver/shell/libscheme-shell.so"
+[2024-12-04 14:23:40:981] [INFO] Loading module "/home/nardos_tatek/cogserver/build/opencog/cogserver/shell/libsexpr-shell.so"
+[2024-12-04 14:23:40:981] [INFO] Loading module "/home/nardos_tatek/cogserver/build/opencog/cogserver/shell/libjson-shell.so"
+[2024-12-04 14:23:40:982] [WARN] Failed to load module libpy-shell.so
+[2024-12-04 14:23:40:982] [WARN] Searched for module at /home/nardos_tatek/cogserver/build/opencog/cogserver/modules/agents
+[2024-12-04 14:23:40:982] [WARN] Searched for module at /home/nardos_tatek/cogserver/build/opencog/cogserver/modules/commands
+[2024-12-04 14:23:40:982] [WARN] Searched for module at /home/nardos_tatek/cogserver/build/opencog/cogserver/modules/python
+[2024-12-04 14:23:40:982] [WARN] Searched for module at /home/nardos_tatek/cogserver/build/opencog/cogserver/modules/
+[2024-12-04 14:23:40:982] [WARN] Searched for module at /home/nardos_tatek/cogserver/build/opencog/cogserver/server/
+[2024-12-04 14:23:40:982] [WARN] Searched for module at /home/nardos_tatek/cogserver/build/opencog/cogserver/shell/
+[2024-12-04 14:23:40:982] [WARN] Searched for module at ./
+[2024-12-04 14:23:40:982] [WARN] Searched for module at .//opencog
+[2024-12-04 14:23:40:982] [WARN] Searched for module at .//opencog/modules
+[2024-12-04 14:23:40:982] [WARN] Searched for module at ../
+[2024-12-04 14:23:40:982] [WARN] Searched for module at ..//opencog
+[2024-12-04 14:23:40:982] [WARN] Searched for module at ..//opencog/modules
+[2024-12-04 14:23:40:982] [WARN] Searched for module at ../../
+[2024-12-04 14:23:40:982] [WARN] Searched for module at ../..//opencog
+[2024-12-04 14:23:40:982] [WARN] Searched for module at ../..//opencog/modules
+[2024-12-04 14:23:40:982] [WARN] Searched for module at ../../../
+[2024-12-04 14:23:40:982] [WARN] Searched for module at ../../..//opencog
+[2024-12-04 14:23:40:982] [WARN] Searched for module at ../../..//opencog/modules
+[2024-12-04 14:23:40:982] [WARN] Searched for module at ../../../../
+[2024-12-04 14:23:40:982] [WARN] Searched for module at ../../../..//opencog
+[2024-12-04 14:23:40:982] [WARN] Searched for module at ../../../..//opencog/modules
+[2024-12-04 14:23:40:982] [WARN] Searched for module at "/usr/local"/lib
+[2024-12-04 14:23:40:982] [WARN] Searched for module at "/usr/local"/lib/opencog
+[2024-12-04 14:23:40:982] [WARN] Searched for module at "/usr/local"/lib/opencog/modules
+[2024-12-04 14:23:40:982] [WARN] Searched for module at "/usr/local"/share
+[2024-12-04 14:23:40:982] [WARN] Searched for module at "/usr/local"/share/opencog
+[2024-12-04 14:23:40:982] [WARN] Searched for module at "/usr/local"/share/opencog/modules
+[2024-12-04 14:23:40:982] [WARN] Searched for module at /usr/local/share/opencog
+[2024-12-04 14:23:40:982] [WARN] Searched for module at /usr/local/share/opencog/opencog
+[2024-12-04 14:23:40:982] [WARN] Searched for module at /usr/local/share/opencog/opencog/modules
+[2024-12-04 14:23:40:982] [WARN] Searched for module at /usr/local/lib64/
+[2024-12-04 14:23:40:982] [WARN] Searched for module at /usr/local/lib64//opencog
+[2024-12-04 14:23:40:982] [WARN] Searched for module at /usr/local/lib64//opencog/modules
+[2024-12-04 14:23:40:982] [WARN] Searched for module at /usr/local/lib/
+[2024-12-04 14:23:40:982] [WARN] Searched for module at /usr/local/lib//opencog
+[2024-12-04 14:23:40:982] [WARN] Searched for module at /usr/local/lib//opencog/modules
+[2024-12-04 14:23:40:982] [WARN] Searched for module at /usr/local/share/
+[2024-12-04 14:23:40:982] [WARN] Searched for module at /usr/local/share//opencog
+[2024-12-04 14:23:40:982] [WARN] Searched for module at /usr/local/share//opencog/modules
+[2024-12-04 14:23:40:982] [WARN] Searched for module at /usr/lib64/
+[2024-12-04 14:23:40:982] [WARN] Searched for module at /usr/lib64//opencog
+[2024-12-04 14:23:40:982] [WARN] Searched for module at /usr/lib64//opencog/modules
+[2024-12-04 14:23:40:982] [WARN] Searched for module at /usr/lib/
+[2024-12-04 14:23:40:982] [WARN] Searched for module at /usr/lib//opencog
+[2024-12-04 14:23:40:982] [WARN] Searched for module at /usr/lib//opencog/modules
+[2024-12-04 14:23:40:982] [WARN] Searched for module at /usr/share/
+[2024-12-04 14:23:40:982] [WARN] Searched for module at /usr/share//opencog
+[2024-12-04 14:23:40:982] [WARN] Searched for module at /usr/share//opencog/modules
+[2024-12-04 14:23:40:982] [WARN] Searched for module at /opt/
+[2024-12-04 14:23:40:982] [WARN] Searched for module at /opt//opencog
+[2024-12-04 14:23:40:982] [WARN] Searched for module at /opt//opencog/modules
+[2024-12-04 14:23:40:982] [WARN] Searched for module at /
+[2024-12-04 14:23:40:982] [WARN] Searched for module at //opencog
+[2024-12-04 14:23:40:982] [WARN] Searched for module at //opencog/modules
+[2024-12-04 14:23:40:982] [INFO] Loading module "/home/nardos_tatek/cogserver/build/opencog/cogserver/modules/agents/libagents.so"
+[2024-12-04 14:23:41:119] [INFO] Loading module "../../opencog/attention/libattention.so"
+[2024-12-04 14:23:41:120] [INFO] Loading module "/home/nardos_tatek/cogserver/build/opencog/cogserver/modules/agents/libagents.so"
+[2024-12-04 14:23:41:227] [INFO] Module "libagents.so" is already loaded.
+[2024-12-04 14:38:20:592] [WARN] No configuration file was loaded! Param=MODULES
+[2024-12-04 14:38:20:592] [INFO] Loading module "/home/nardos_tatek/cogserver/build/opencog/cogserver/modules/commands/libbuiltinreqs.so"
+[2024-12-04 14:38:20:594] [INFO] Loading module "/home/nardos_tatek/cogserver/build/opencog/cogserver/shell/libscheme-shell.so"
+[2024-12-04 14:38:20:603] [INFO] Loading module "/home/nardos_tatek/cogserver/build/opencog/cogserver/shell/libsexpr-shell.so"
+[2024-12-04 14:38:20:605] [INFO] Loading module "/home/nardos_tatek/cogserver/build/opencog/cogserver/shell/libjson-shell.so"
+[2024-12-04 14:38:20:607] [WARN] Failed to load module libpy-shell.so
+[2024-12-04 14:38:20:607] [WARN] Searched for module at /home/nardos_tatek/cogserver/build/opencog/cogserver/modules/agents
+[2024-12-04 14:38:20:607] [WARN] Searched for module at /home/nardos_tatek/cogserver/build/opencog/cogserver/modules/commands
+[2024-12-04 14:38:20:607] [WARN] Searched for module at /home/nardos_tatek/cogserver/build/opencog/cogserver/modules/python
+[2024-12-04 14:38:20:607] [WARN] Searched for module at /home/nardos_tatek/cogserver/build/opencog/cogserver/modules/
+[2024-12-04 14:38:20:607] [WARN] Searched for module at /home/nardos_tatek/cogserver/build/opencog/cogserver/server/
+[2024-12-04 14:38:20:607] [WARN] Searched for module at /home/nardos_tatek/cogserver/build/opencog/cogserver/shell/
+[2024-12-04 14:38:20:607] [WARN] Searched for module at ./
+[2024-12-04 14:38:20:607] [WARN] Searched for module at .//opencog
+[2024-12-04 14:38:20:607] [WARN] Searched for module at .//opencog/modules
+[2024-12-04 14:38:20:607] [WARN] Searched for module at ../
+[2024-12-04 14:38:20:607] [WARN] Searched for module at ..//opencog
+[2024-12-04 14:38:20:607] [WARN] Searched for module at ..//opencog/modules
+[2024-12-04 14:38:20:607] [WARN] Searched for module at ../../
+[2024-12-04 14:38:20:607] [WARN] Searched for module at ../..//opencog
+[2024-12-04 14:38:20:607] [WARN] Searched for module at ../..//opencog/modules
+[2024-12-04 14:38:20:607] [WARN] Searched for module at ../../../
+[2024-12-04 14:38:20:607] [WARN] Searched for module at ../../..//opencog
+[2024-12-04 14:38:20:607] [WARN] Searched for module at ../../..//opencog/modules
+[2024-12-04 14:38:20:607] [WARN] Searched for module at ../../../../
+[2024-12-04 14:38:20:607] [WARN] Searched for module at ../../../..//opencog
+[2024-12-04 14:38:20:607] [WARN] Searched for module at ../../../..//opencog/modules
+[2024-12-04 14:38:20:607] [WARN] Searched for module at "/usr/local"/lib
+[2024-12-04 14:38:20:607] [WARN] Searched for module at "/usr/local"/lib/opencog
+[2024-12-04 14:38:20:607] [WARN] Searched for module at "/usr/local"/lib/opencog/modules
+[2024-12-04 14:38:20:607] [WARN] Searched for module at "/usr/local"/share
+[2024-12-04 14:38:20:607] [WARN] Searched for module at "/usr/local"/share/opencog
+[2024-12-04 14:38:20:607] [WARN] Searched for module at "/usr/local"/share/opencog/modules
+[2024-12-04 14:38:20:607] [WARN] Searched for module at /usr/local/share/opencog
+[2024-12-04 14:38:20:607] [WARN] Searched for module at /usr/local/share/opencog/opencog
+[2024-12-04 14:38:20:607] [WARN] Searched for module at /usr/local/share/opencog/opencog/modules
+[2024-12-04 14:38:20:607] [WARN] Searched for module at /usr/local/lib64/
+[2024-12-04 14:38:20:607] [WARN] Searched for module at /usr/local/lib64//opencog
+[2024-12-04 14:38:20:607] [WARN] Searched for module at /usr/local/lib64//opencog/modules
+[2024-12-04 14:38:20:607] [WARN] Searched for module at /usr/local/lib/
+[2024-12-04 14:38:20:607] [WARN] Searched for module at /usr/local/lib//opencog
+[2024-12-04 14:38:20:607] [WARN] Searched for module at /usr/local/lib//opencog/modules
+[2024-12-04 14:38:20:607] [WARN] Searched for module at /usr/local/share/
+[2024-12-04 14:38:20:607] [WARN] Searched for module at /usr/local/share//opencog
+[2024-12-04 14:38:20:607] [WARN] Searched for module at /usr/local/share//opencog/modules
+[2024-12-04 14:38:20:607] [WARN] Searched for module at /usr/lib64/
+[2024-12-04 14:38:20:607] [WARN] Searched for module at /usr/lib64//opencog
+[2024-12-04 14:38:20:607] [WARN] Searched for module at /usr/lib64//opencog/modules
+[2024-12-04 14:38:20:607] [WARN] Searched for module at /usr/lib/
+[2024-12-04 14:38:20:607] [WARN] Searched for module at /usr/lib//opencog
+[2024-12-04 14:38:20:607] [WARN] Searched for module at /usr/lib//opencog/modules
+[2024-12-04 14:38:20:607] [WARN] Searched for module at /usr/share/
+[2024-12-04 14:38:20:607] [WARN] Searched for module at /usr/share//opencog
+[2024-12-04 14:38:20:607] [WARN] Searched for module at /usr/share//opencog/modules
+[2024-12-04 14:38:20:607] [WARN] Searched for module at /opt/
+[2024-12-04 14:38:20:607] [WARN] Searched for module at /opt//opencog
+[2024-12-04 14:38:20:607] [WARN] Searched for module at /opt//opencog/modules
+[2024-12-04 14:38:20:607] [WARN] Searched for module at /
+[2024-12-04 14:38:20:607] [WARN] Searched for module at //opencog
+[2024-12-04 14:38:20:607] [WARN] Searched for module at //opencog/modules
+[2024-12-04 14:38:20:607] [INFO] Loading module "/home/nardos_tatek/cogserver/build/opencog/cogserver/modules/agents/libagents.so"
+[2024-12-04 14:38:20:656] [INFO] Loading module "../../opencog/attention/libattention.so"
+[2024-12-04 14:38:20:656] [INFO] Loading module "/home/nardos_tatek/cogserver/build/opencog/cogserver/modules/agents/libagents.so"
+[2024-12-04 14:38:20:762] [INFO] Module "libagents.so" is already loaded.
