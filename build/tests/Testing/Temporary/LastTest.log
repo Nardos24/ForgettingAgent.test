@@ -1,10 +1,10 @@
-Start testing: Dec 04 15:38 CET
+Start testing: Dec 04 16:00 CET
 ----------------------------------------------------------
 1/8 Testing: AttentionValueUTest
 1/8 Test: AttentionValueUTest
 Command: "/home/nardos_tatek/attention/build/tests/attentionbank/AttentionValueUTest"
 Directory: /home/nardos_tatek/attention/build/tests/attentionbank
-"AttentionValueUTest" start time: Dec 04 15:38 CET
+"AttentionValueUTest" start time: Dec 04 16:00 CET
 Output:
 ----------------------------------------------------------
 Running cxxtest tests (8 tests)........OK!
@@ -12,7 +12,7 @@ Running cxxtest tests (8 tests)........OK!
 Test time =   0.07 sec
 ----------------------------------------------------------
 Test Passed.
-"AttentionValueUTest" end time: Dec 04 15:38 CET
+"AttentionValueUTest" end time: Dec 04 16:00 CET
 "AttentionValueUTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -20,15 +20,15 @@ Test Passed.
 2/8 Test: AttentionUTest
 Command: "/home/nardos_tatek/attention/build/tests/attentionbank/AttentionUTest"
 Directory: /home/nardos_tatek/attention/build/tests/attentionbank
-"AttentionUTest" start time: Dec 04 15:38 CET
+"AttentionUTest" start time: Dec 04 16:00 CET
 Output:
 ----------------------------------------------------------
 Running cxxtest tests (3 tests)...OK!
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"AttentionUTest" end time: Dec 04 15:38 CET
+"AttentionUTest" end time: Dec 04 16:00 CET
 "AttentionUTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -36,15 +36,15 @@ Test Passed.
 3/8 Test: BankImplUTest
 Command: "/home/nardos_tatek/attention/build/tests/attentionbank/BankImplUTest"
 Directory: /home/nardos_tatek/attention/build/tests/attentionbank
-"BankImplUTest" start time: Dec 04 15:38 CET
+"BankImplUTest" start time: Dec 04 16:00 CET
 Output:
 ----------------------------------------------------------
 Running cxxtest tests (10 tests)..........OK!
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"BankImplUTest" end time: Dec 04 15:38 CET
+"BankImplUTest" end time: Dec 04 16:00 CET
 "BankImplUTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -52,7 +52,7 @@ Test Passed.
 4/8 Test: BankAsyncUTest
 Command: "/home/nardos_tatek/attention/build/tests/attentionbank/BankAsyncUTest"
 Directory: /home/nardos_tatek/attention/build/tests/attentionbank
-"BankAsyncUTest" start time: Dec 04 15:38 CET
+"BankAsyncUTest" start time: Dec 04 16:00 CET
 Output:
 ----------------------------------------------------------
 Running cxxtest tests (1 test).OK!
@@ -60,7 +60,7 @@ Running cxxtest tests (1 test).OK!
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"BankAsyncUTest" end time: Dec 04 15:38 CET
+"BankAsyncUTest" end time: Dec 04 16:00 CET
 "BankAsyncUTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -68,16 +68,16 @@ Test Passed.
 5/8 Test: AttentionalFocusCBUTest
 Command: "/home/nardos_tatek/attention/build/tests/attentionbank/AttentionalFocusCBUTest"
 Directory: /home/nardos_tatek/attention/build/tests/attentionbank
-"AttentionalFocusCBUTest" start time: Dec 04 15:38 CET
+"AttentionalFocusCBUTest" start time: Dec 04 16:00 CET
 Output:
 ----------------------------------------------------------
-Running cxxtest tests (1 test)[2024-12-04 14:38:20:384] [DEBUG] BEGIN TEST: test_af_bindlink
+Running cxxtest tests (1 test)[2024-12-04 15:00:48:233] [DEBUG] BEGIN TEST: test_af_bindlink
 .OK!
 <end of output>
-Test time =   0.20 sec
+Test time =   0.17 sec
 ----------------------------------------------------------
 Test Passed.
-"AttentionalFocusCBUTest" end time: Dec 04 15:38 CET
+"AttentionalFocusCBUTest" end time: Dec 04 16:00 CET
 "AttentionalFocusCBUTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -85,7 +85,7 @@ Test Passed.
 6/8 Test: AttentionParamQueryUTest
 Command: "/home/nardos_tatek/attention/build/tests/attention/AttentionParamQueryUTest"
 Directory: /home/nardos_tatek/attention/build/tests/attention
-"AttentionParamQueryUTest" start time: Dec 04 15:38 CET
+"AttentionParamQueryUTest" start time: Dec 04 16:00 CET
 Output:
 ----------------------------------------------------------
 Running cxxtest tests (4 tests)....OK!
@@ -93,7 +93,7 @@ Running cxxtest tests (4 tests)....OK!
 Test time =   0.09 sec
 ----------------------------------------------------------
 Test Passed.
-"AttentionParamQueryUTest" end time: Dec 04 15:38 CET
+"AttentionParamQueryUTest" end time: Dec 04 16:00 CET
 "AttentionParamQueryUTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -101,15 +101,15 @@ Test Passed.
 7/8 Test: ImportanceDiffusionUTest
 Command: "/home/nardos_tatek/attention/build/tests/attention/ImportanceDiffusionUTest"
 Directory: /home/nardos_tatek/attention/build/tests/attention
-"ImportanceDiffusionUTest" start time: Dec 04 15:38 CET
+"ImportanceDiffusionUTest" start time: Dec 04 16:00 CET
 Output:
 ----------------------------------------------------------
 Running cxxtest tests (8 tests)........OK!
 <end of output>
-Test time =   0.14 sec
+Test time =   0.12 sec
 ----------------------------------------------------------
 Test Passed.
-"ImportanceDiffusionUTest" end time: Dec 04 15:38 CET
+"ImportanceDiffusionUTest" end time: Dec 04 16:00 CET
 "ImportanceDiffusionUTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -117,7 +117,7 @@ Test Passed.
 8/8 Test: HebbianCreationModuleUTest
 Command: "/home/nardos_tatek/attention/build/tests/attention/HebbianCreationModuleUTest"
 Directory: /home/nardos_tatek/attention/build/tests/attention
-"HebbianCreationModuleUTest" start time: Dec 04 15:38 CET
+"HebbianCreationModuleUTest" start time: Dec 04 16:00 CET
 Output:
 ----------------------------------------------------------
 Running cxxtest tests (1 test)
@@ -132,8 +132,8 @@ count(HebLinks) = 12
 Test time =   1.19 sec
 ----------------------------------------------------------
 Test Passed.
-"HebbianCreationModuleUTest" end time: Dec 04 15:38 CET
+"HebbianCreationModuleUTest" end time: Dec 04 16:00 CET
 "HebbianCreationModuleUTest" time elapsed: 00:00:01
 ----------------------------------------------------------
 
-End testing: Dec 04 15:38 CET
+End testing: Dec 04 16:00 CET
